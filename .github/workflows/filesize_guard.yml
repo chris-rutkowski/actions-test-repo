@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  optim_guard:
+  filesize_guard:
     runs-on: ubuntu-latest
     steps:
       - name: Filesize Guard
