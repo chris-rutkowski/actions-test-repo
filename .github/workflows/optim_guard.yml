@@ -1,0 +1,13 @@
+name: Optim Guard
+on:
+  pull_request:
+    branches:
+      - master
+  workflow_dispatch:
+
+jobs:
+  optim_guard:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Optim Guard
+        uses: chris-rutkowski/optim-guard@pdf_support
