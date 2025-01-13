@@ -1,0 +1,15 @@
+name: Filesize Guard
+on:
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  optim_guard:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Optim Guard
+        uses: chris-rutkowski/filesize-guard@v1.0.1
+        # with:
+        #   ignore_file: my_optim_guard.ignore
