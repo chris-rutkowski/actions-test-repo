@@ -10,6 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Optim Guard
-        uses: chris-rutkowski/filesize-guard@v1.0.1
+        uses: chris-rutkowski/filesize-guard@v103
         # with:
         #   ignore_file: my_optim_guard.ignore
