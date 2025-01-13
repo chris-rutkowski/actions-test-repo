@@ -10,6 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Filesize Guard
-        uses: chris-rutkowski/filesize-guard@v103
+        uses: chris-rutkowski/filesize-guard@v1.0.3
         # with:
         #   ignore_file: my_filesize_guard.ignore
