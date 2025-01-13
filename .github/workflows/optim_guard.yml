@@ -2,7 +2,7 @@ name: Optim Guard
 on:
   pull_request:
     branches:
-      - master
+      - main
   workflow_dispatch:
 
 jobs:
@@ -11,3 +11,5 @@ jobs:
     steps:
       - name: Optim Guard
         uses: chris-rutkowski/optim-guard@pdf_support
+        # with:
+        #   ignore_file: my_optim_guard.ignore
