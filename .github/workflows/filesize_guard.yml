@@ -9,7 +9,7 @@ jobs:
   optim_guard:
     runs-on: ubuntu-latest
     steps:
-      - name: Optim Guard
+      - name: Filesize Guard
         uses: chris-rutkowski/filesize-guard@v103
         # with:
         #   ignore_file: my_filesize_guard.ignore
