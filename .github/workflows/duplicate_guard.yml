@@ -10,6 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Duplicate Guard
-        uses: chris-rutkowski/duplicate-guard@v102
+        uses: chris-rutkowski/duplicate-guard@v1.0.2
         # with:
         #   ignore_file: my_duplicate_guard.ignore
