@@ -1,0 +1,15 @@
+name: Duplicate Guard
+on:
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  duplicate_guard:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Duplicate Guard
+        uses: chris-rutkowski/filesize-guard@v1.0.3
+        # with:
+        #   ignore_file: my_duplicate_guard.ignore
