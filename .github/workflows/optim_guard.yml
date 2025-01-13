@@ -10,6 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Optim Guard
-        uses: chris-rutkowski/optim-guard@pdf_support
+        uses: chris-rutkowski/optim-guard@v2.0.0
         # with:
         #   ignore_file: my_optim_guard.ignore
